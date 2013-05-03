@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=IE9" />	 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Otter</title>
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/global_stylesheet.css"/>
+
+    <!--SCRIPTS-->
+	<!--LIB-->	 
+    <script src="scripts/lib/jquery-1.8.3.js" type="text/javascript"></script>
+    <script src="scripts/lib/jquery.tmpl.min.js" type="text/javascript"></script>
+	<script src="scripts/lib/jquery.clickonce.js" type="text/javascript"></script>
+    <script src="scripts/lib/jquery.metadata.js" type="text/javascript"></script>
+    <script src="scripts/lib/underscore.js" type="text/javascript"></script>
+    <script src="scripts/lib/backbone-min.js" type="text/javascript"></script>
+    <script src="scripts/lib/team_landing_script.js" type="text/javascript"></script>
+    <script src="scripts/lib/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="scripts/lib/FetchChain.js" type="text/javascript"></script>
+    
+    <!--MODULES-->
+    <script src="scripts/general.js" type="text/javascript"></script>
+    <script src="scripts/namespace.js" type="text/javascript"></script>
+    <script src="scripts/sandbox.js" type="text/javascript"></script>
+    <script src="scripts/modules/stage_module.js" type="text/javascript"></script>
+    <script src="scripts/modules/employee_module.js" type="text/javascript"></script>
+    <script src="scripts/modules/gateway_module.js" type="text/javascript"></script>
+    <script src="scripts/core.js" type="text/javascript"></script>
+    <script src="scripts/app.js" type="text/javascript"></script>
+    <script src="scripts/lib/jquery_config.js" type="text/javascript"></script>
+    <script src="scripts/lib/underscore_config.js" type="text/javascript"></script>
+    <script src="scripts/lib/team_landing_script.js" type="text/javascript"></script>
+    <!--PROXIES-->
+    <script src="scripts/proxies/employee_proxy.js" type="text/javascript"></script>
+    <!--SCRIPTS-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (document.body.addEventListener) {
+                document.body.addEventListener('touchmoves', function (e) {
+                    e.preventDefault();
+                }, false);
+            }
+        });
+        jQuery.support.cors = true;
+        var gTimeout = 90000;
+        var device = doDetect();
+        var abort = false;
+        var cacheTemplates = false;
+        var appVersionNo = '0.1';
+        var templatesSources = ['scripts/employee.htm'];
+        var templateStatus = [];
+        var templateLoadTimeout = window.gTimeout;
+        var templateLoadDelay = 0;
+        var templateLoadStart = undefined;
+        function onTemplatesLoaded(onLoaded) {
+            if (templateStatus.length == templatesSources.length) {
+                console.warn('templates ready ....');
+                window.clearInterval(window.templateTimer);
+                app.start();
+            }
+            else {
+                var current = new Date().getTime();
+                templateLoadDelay = current - templateLoadStart;
+                console && console.warn('templates not ready as yet....delayed for ' + templateLoadDelay + ' ms');
+                if (templateLoadDelay > templateLoadTimeout) {
+                    console.warn('templates timed out. redirecing to manual reload screen');
+                    window.clearInterval(window.templateTimer);
+                    $('#loadingStatus').html($('#retryTemplate').tmpl({}));
+                }
+            }
+        }
+
+        function startWorkflow() {
+            if (abort)
+                return;
+            try {
+                templateLoadStart = new Date().getTime();
+                for (var i = 0; i < templatesSources.length; i++) {
+                    $.get(templatesSources[i] + (cacheTemplates ? "" : '?' + new Date().getTime()), function (templates) {
+                        $('head').append(templates);
+                        templateStatus.push(true);
+                    });
+                };
+
+                window.templateTimer = window.setInterval(function () {
+                    onTemplatesLoaded();
+                }, 100);
+            }
+            catch (e) {
+                console && console.warn('exception in start work flow in index');
+            }
+        };
+
+        startWorkflow();
+	</script>
+</head>
+<body>
+
+</body>
+</html>

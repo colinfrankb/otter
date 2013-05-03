@@ -1,0 +1,19 @@
+2013-03-27 10:44:23,429 [30] ERROR NHibernate.AdoNet.AbstractBatcher - Could not execute query: SELECT this_.id as id0_0_, this_.firstname as firstname0_0_, this_.lastname as lastname0_0_, this_.email as email0_0_, this_.status as status0_0_, this_.eta as eta0_0_, this_.reason as reason0_0_ FROM [Employee] this_
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'lastname'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-27 10:44:23,504 [30] ERROR NHibernate.Util.ADOExceptionReporter - Invalid column name 'lastname'.
+2013-03-27 10:44:23,513 [30] ERROR NHibernate.Util.ADOExceptionReporter - Invalid column name 'lastname'.
+2013-03-27 10:44:23,514 [30] ERROR NHibernate.Util.ADOExceptionReporter - Invalid column name 'lastname'.

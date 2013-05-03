@@ -1,0 +1,16 @@
+2013-04-08 23:05:54,104 [12] ERROR NHibernate.Util.ADOExceptionReporter - Input string '12:02:00' was not in the correct format.
+2013-04-08 23:05:54,120 [12] ERROR NHibernate.Util.ADOExceptionReporter - Unable to cast object of type 'System.TimeSpan' to type 'System.IConvertible'.
+2013-04-08 23:05:54,121 [12] ERROR NHibernate.Util.ADOExceptionReporter - Input string '12:02:00' was not in the correct format.
+2013-04-08 23:05:54,121 [12] ERROR NHibernate.Util.ADOExceptionReporter - Unable to cast object of type 'System.TimeSpan' to type 'System.IConvertible'.
+2013-04-08 23:07:20,848 [27] ERROR NHibernate.Util.ADOExceptionReporter - Input string '12:02:00' was not in the correct format.
+2013-04-08 23:07:20,855 [27] ERROR NHibernate.Util.ADOExceptionReporter - Unable to cast object of type 'System.TimeSpan' to type 'System.IConvertible'.
+2013-04-08 23:07:20,855 [27] ERROR NHibernate.Util.ADOExceptionReporter - Input string '12:02:00' was not in the correct format.
+2013-04-08 23:07:20,855 [27] ERROR NHibernate.Util.ADOExceptionReporter - Unable to cast object of type 'System.TimeSpan' to type 'System.IConvertible'.
+2013-04-08 23:08:49,089 [27] ERROR NHibernate.Util.ADOExceptionReporter - Input string '12:02:00' was not in the correct format.
+2013-04-08 23:08:49,089 [27] ERROR NHibernate.Util.ADOExceptionReporter - Unable to cast object of type 'System.TimeSpan' to type 'System.IConvertible'.
+2013-04-08 23:08:49,089 [27] ERROR NHibernate.Util.ADOExceptionReporter - Input string '12:02:00' was not in the correct format.
+2013-04-08 23:08:49,089 [27] ERROR NHibernate.Util.ADOExceptionReporter - Unable to cast object of type 'System.TimeSpan' to type 'System.IConvertible'.
+2013-04-08 23:09:17,296 [27] ERROR NHibernate.Util.ADOExceptionReporter - Input string '12:02:00' was not in the correct format.
+2013-04-08 23:09:17,296 [27] ERROR NHibernate.Util.ADOExceptionReporter - Unable to cast object of type 'System.TimeSpan' to type 'System.IConvertible'.
+2013-04-08 23:09:17,296 [27] ERROR NHibernate.Util.ADOExceptionReporter - Input string '12:02:00' was not in the correct format.
+2013-04-08 23:09:17,296 [27] ERROR NHibernate.Util.ADOExceptionReporter - Unable to cast object of type 'System.TimeSpan' to type 'System.IConvertible'.

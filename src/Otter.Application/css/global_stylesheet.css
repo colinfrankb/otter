@@ -1,0 +1,122 @@
+﻿body {
+}
+
+.boardroom
+{
+   cursor:pointer;
+   width:200px;
+   height:200px;
+   border:1px solid #000000; 
+   float:left;
+   margin:0px 20px 0px 0px;  
+}
+
+.boardroom:hover
+{
+   background:#6cc6e0;
+}
+
+/* *********** TEAM *************** */
+
+.team_images{
+	height: auto;
+	background-color:Gray;
+	float:left;
+}
+
+.team_listing_container,
+.team_landing_container{
+    height:auto;
+} 
+.clearfix{
+    clear:both;
+}
+.person_image img{
+	
+}
+.person_image{
+	float:left;
+	vertical-align:bottom;
+	background-size:120px;
+	position:relative;
+}
+
+.person_image:hover{
+	cursor:pointer;
+}
+
+.name{
+	width:145px;
+	position:absolute;
+	bottom:0px;
+	font-size:11px;
+	opacity:0.8;
+	background-color:#42C4E8;
+	color:white;
+	padding:5px 5px 5px 0;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:right;
+}
+
+.in{
+	background-color:#99FF66;
+}
+
+.sick{
+	background-color:#CC33FF;
+}
+
+.leave{
+	background-color:#6666FF;
+}
+
+.late{
+	background-color:#FFCC33;
+}
+
+.team_listing_container .team_images div{float:left;}
+.team_listing_container .team_images div a div{width:70px;}
+.team_listing_container .team_images img{
+	float:left;
+	width:156px;
+	height:auto;
+}
+.team_listing_container .team_images h2{
+	float:left;
+	padding:0px;margin:0 0 15px 20px;
+}
+.team_listing_container .team_images h2 span{
+	color:#999999;
+	float:right;
+	padding:0px;margin:0px;
+	display:block;
+}
+.team_listing_container .team_images p{
+	float:left;
+	margin:0 0 15px 20px;
+	padding:0px;
+	width:530px;
+	color:#000;
+	line-height: 18px;
+}
+
+.team_listing_container .team_images div{
+	width:720px;
+}
+.team_listing_container .team_images{
+	width: 720px;
+	height: auto;
+	background-color:transparent;
+	float:left;
+}
+
+img.black_white{
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+img.colorize{
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(0%);
+}

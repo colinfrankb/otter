@@ -1,0 +1,29 @@
+﻿<script id="employeesTemplate" type="text/x-jquery-tmpl">
+<div class="team_landing_container">
+	<div class="team_images">
+        {{each Items}}
+        <a href='#'>
+			<div class='person_image'>
+                {{if Status == "In"}}
+				    <img alt='${FirstName}' src='/images/team_images/thumb/${ImageName}'>
+                {{/if}}
+                {{if Status == "Sick"}}
+                    <img class="black_white" alt='${FirstName}' src='/images/team_images/thumb/${ImageName}'>
+				    <div class='name sick'><label><b>${$item.getStartDate($value)} ${EndDate}</b></label></div>
+                {{/if}}
+                {{if Status == "Leave"}}
+                    <img class="black_white" alt='${FirstName}' src='/images/team_images/thumb/${ImageName}'>
+				    <div class='name leave'><label><b>${$item.getStartDate($value)} ${EndDate}</b></label></div>
+                {{/if}}
+                {{if Status == "Late"}}
+                    <img alt='${FirstName}' src='/images/team_images/thumb/${ImageName}'>
+				    <div class='name late'><label><b>${ETA}</b></label></div>
+                {{/if}}
+			</div>
+		</a>    
+        {{/each}}
+	</div>
+</div>
+</script>
+
+

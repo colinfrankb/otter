@@ -1,0 +1,10 @@
+C:\Workspace\Repo\Maxxor\Otter\src\Otter.Application\Otter.Application\bin\Otter.Application.dll
+C:\Workspace\Repo\Maxxor\Otter\src\Otter.Application\Otter.Application\bin\Otter.Application.pdb
+C:\Workspace\Repo\Maxxor\Otter\src\Otter.Application\Otter.Application\obj\Debug\ResolveAssemblyReference.cache
+C:\Workspace\Repo\Maxxor\Otter\src\Otter.Application\Otter.Application\obj\Debug\Otter.Application.dll
+C:\Workspace\Repo\Maxxor\Otter\src\Otter.Application\Otter.Application\obj\Debug\Otter.Application.pdb
+C:\Workspace\Repo\Maxxor\Otter\src\Otter.Application\bin\Otter.Application.dll
+C:\Workspace\Repo\Maxxor\Otter\src\Otter.Application\bin\Otter.Application.pdb
+C:\Workspace\Repo\Maxxor\Otter\src\Otter.Application\obj\Debug\ResolveAssemblyReference.cache
+C:\Workspace\Repo\Maxxor\Otter\src\Otter.Application\obj\Debug\Otter.Application.dll
+C:\Workspace\Repo\Maxxor\Otter\src\Otter.Application\obj\Debug\Otter.Application.pdb
