@@ -11,3 +11,16 @@ C:\Workspace\Repo\Maxxor\Otter\src\Otter.Infrastructure\bin\Debug\Otter.Domain.d
 C:\Workspace\Repo\Maxxor\Otter\src\Otter.Infrastructure\bin\Debug\Iesi.Collections.dll
 C:\Workspace\Repo\Maxxor\Otter\src\Otter.Infrastructure\bin\Debug\Otter.Domain.pdb
 C:\Workspace\Repo\Maxxor\Otter\src\Otter.Infrastructure\bin\Debug\NHibernate.LambdaExtensions.dll
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Infrastructure\bin\Debug\Otter.Infrastructure.dll
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Infrastructure\bin\Debug\Otter.Infrastructure.pdb
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Infrastructure\bin\Debug\FluentNHibernate.dll
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Infrastructure\bin\Debug\log4net.dll
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Infrastructure\bin\Debug\NHibernate.Burrow.dll
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Infrastructure\bin\Debug\NHibernate.dll
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Infrastructure\bin\Debug\NHibernate.LambdaExtensions.dll
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Infrastructure\bin\Debug\Otter.Domain.dll
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Infrastructure\bin\Debug\Iesi.Collections.dll
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Infrastructure\bin\Debug\Otter.Domain.pdb
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Infrastructure\obj\Debug\ResolveAssemblyReference.cache
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Infrastructure\obj\Debug\Otter.Infrastructure.dll
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Infrastructure\obj\Debug\Otter.Infrastructure.pdb

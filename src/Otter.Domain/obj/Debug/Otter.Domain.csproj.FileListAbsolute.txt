@@ -3,3 +3,8 @@ C:\Workspace\Repo\Maxxor\Otter\src\Otter.Domain\bin\Debug\Otter.Domain.pdb
 C:\Workspace\Repo\Maxxor\Otter\src\Otter.Domain\obj\Debug\ResolveAssemblyReference.cache
 C:\Workspace\Repo\Maxxor\Otter\src\Otter.Domain\obj\Debug\Otter.Domain.dll
 C:\Workspace\Repo\Maxxor\Otter\src\Otter.Domain\obj\Debug\Otter.Domain.pdb
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Domain\bin\Debug\Otter.Domain.dll
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Domain\bin\Debug\Otter.Domain.pdb
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Domain\obj\Debug\Otter.Domain.dll
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Domain\obj\Debug\Otter.Domain.pdb

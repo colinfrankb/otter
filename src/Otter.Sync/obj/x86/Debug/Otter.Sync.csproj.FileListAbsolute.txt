@@ -6,3 +6,11 @@ C:\Workspace\Repo\Maxxor\Otter\src\Otter.Sync\obj\x86\Debug\Otter.Sync.pdb
 C:\Workspace\Repo\Maxxor\Otter\src\Otter.Sync\bin\Debug\Otter.Sync.exe.config
 C:\Workspace\Repo\Maxxor\Otter\src\Otter.Sync\bin\Debug\Microsoft.Exchange.WebServices.dll
 C:\Workspace\Repo\Maxxor\Otter\src\Otter.Sync\bin\Debug\Microsoft.Exchange.WebServices.xml
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Sync\bin\Debug\Otter.Sync.exe.config
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Sync\bin\Debug\Otter.Sync.exe
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Sync\bin\Debug\Otter.Sync.pdb
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Sync\bin\Debug\Microsoft.Exchange.WebServices.dll
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Sync\bin\Debug\Microsoft.Exchange.WebServices.xml
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Sync\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Sync\obj\x86\Debug\Otter.Sync.exe
+C:\Workspace\GitRepo\Maxxor\otter\src\Otter.Sync\obj\x86\Debug\Otter.Sync.pdb
